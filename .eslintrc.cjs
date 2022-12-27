@@ -34,6 +34,14 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'warn',
     'react/jsx-no-useless-fragment': 'warn',
+    'react/jsx-key': 'warn',
+    'react/function-component-definition': [
+      'warn',
+      {
+        namedComponents: 'arrow-function',
+        unnamedComponents: 'arrow-function',
+      },
+    ],
     'react-hooks/exhaustive-deps': 'warn',
   },
 };
