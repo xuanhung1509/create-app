@@ -33,8 +33,6 @@ module.exports = {
     'import/order': 'warn',
     'import/no-extraneous-dependencies': 'off',
     'import/prefer-default-export': 'warn',
-    'react/jsx-no-useless-fragment': 'warn',
-    'react/jsx-key': 'warn',
     'react/function-component-definition': [
       'warn',
       {
@@ -42,6 +40,9 @@ module.exports = {
         unnamedComponents: 'arrow-function',
       },
     ],
+    'react/jsx-no-useless-fragment': 'warn',
+    'react/jsx-key': 'warn',
+    'react/self-closing-comp': 'warn',
     'react-hooks/exhaustive-deps': 'warn',
   },
 };
