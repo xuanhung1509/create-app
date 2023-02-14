@@ -1,4 +1,4 @@
-# Viter
+# Create Vite App
 
 Minimal React starter template.
 
@@ -10,13 +10,15 @@ Minimal React starter template.
 
 ## Getting Started
 
+> This repository scaffolds a Vite app by default. If you want to use Next instead, checkout [Next](https://github.com/xuanhung1509/viter/tree/next)
+
 You can either clone this repository by:
 
-- Use this repository as a [GitHub template](https://github.com/xuanhung1509/viter/generate) (preserve git history)
+- Use this repository as a [GitHub template](https://github.com/xuanhung1509/create-app/generate) (preserve git history)
 - Use degit (clean git history):
 
 ```sh
-  npx degit xuanhung1509/viter my-app
+  npx degit xuanhung1509/create-app my-app
 ```
 
 Init Git repository (skip this step if you template this repository):
